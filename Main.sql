@@ -4,7 +4,7 @@ Select *
 From [Nashville Housing]..NashvilleHousing
 
 
---- Standardize Date Format
+--- Standardise Date Format
 
 Select SaleDate, CONVERT(Date, SaleDate)
 From [Nashville Housing]..NashvilleHousing
